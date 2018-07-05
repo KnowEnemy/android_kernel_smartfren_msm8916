@@ -1044,6 +1044,10 @@ config TOUCHSCREEN_MSG2XXX
 
 	 If unsure, say N.
 
+#[PLATFORM]-Add-BEGIN by mike.li for msg2238 driver code.[2015.03.06]
+source "drivers/input/touchscreen/msg2238/Kconfig"
+#[PLATFORM]-Add-END by mike.li
+
 config TOUCHSCREEN_PROXIMITY_SENSOR
 	tristate "Touchscreen proximity support"
 	default n

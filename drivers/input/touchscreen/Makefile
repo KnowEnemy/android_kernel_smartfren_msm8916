@@ -84,3 +84,6 @@ obj-$(CONFIG_TOUCHSCREEN_GT9XX)		+= gt9xx/
 obj-$(CONFIG_TOUCHSCREEN_BU21150)	+= bu21150.o
 obj-$(CONFIG_INPUT_MT_WRAPPER)		+= input_mt_wrapper.o
 obj-$(CONFIG_TOUCHSCREEN_MSG2XXX)	+= msg2xxx.o
+# add by mike.li for 2st src msg2238 begin. [PRxxxx][2015.03.06]
+obj-$(CONFIG_INPUT_TOUCHSCREEN)       += msg2238/
+# add by mike.li for 2st src msg2238 end. [PRxxxx][2015.03.06]
